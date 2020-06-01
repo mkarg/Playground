@@ -15,7 +15,7 @@
 
 	<properties>
         <mainClass>org.wimi.playground.server.se.PlaygroundServer</mainClass>
-        <jersey.version>2.31</jersey.version>
+        <jersey.version>[2.31, 2.32-A00)</jersey.version>
 	</properties>
 
 	<dependencies>
