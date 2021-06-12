@@ -10,6 +10,7 @@
 		<revision>0-SNAPSHOT</revision>
 		<maven.compiler.release>11</maven.compiler.release>
 		<cdi.version>3.0.0</cdi.version>
+		<jsonb.version>2.0.0</jsonb.version>
 		<jaxrs.version>3.1-SNAPSHOT</jaxrs.version>
 		<weld.version>4.0.1.SP1</weld.version>
 		<jandex.version>2.3.0.Final</jandex.version>
@@ -34,6 +35,12 @@
 			<groupId>jakarta.enterprise</groupId>
 			<artifactId>jakarta.enterprise.cdi-api</artifactId>
 			<version>${cdi.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>jakarta.json.bind</groupId>
+			<artifactId>jakarta.json.bind-api</artifactId>
+			<version>${jsonb.version}</version>
 		</dependency>
 
 		<dependency>
@@ -64,6 +71,11 @@
 		<dependency>
 			<groupId>org.glassfish.jersey.inject</groupId>
 			<artifactId>jersey-cdi2-se</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-json-binding</artifactId>
 		</dependency>
 
 		<dependency>
